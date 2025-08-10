@@ -183,7 +183,7 @@ export default function ChessGame() {
 
           <div className="flex gap-2 mt-4">
             <button
-              onClick={resetGame}
+              onClick={() => window.location.href = "https://chess-f06j.onrender.com"}
               className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
             >
               New Game
